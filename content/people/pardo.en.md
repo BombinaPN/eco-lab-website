@@ -5,7 +5,7 @@ keywords:
   - "ecotoxicology"
   - "functional ecology"
   - "amphibians and reptiles"
-  - "LIFE EOLIZARD"
+  - "herpetology"
 weight: 3
 image: "/img/people/pardo.jpg"
 ---

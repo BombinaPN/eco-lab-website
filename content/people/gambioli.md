@@ -5,7 +5,7 @@ keywords:
   - "erpetologia"
   - "conservazione insulare"
   - "ecologia delle lucertole"
-  - "LIFE EOLIZARD"
+  - "anfibi e rettili"
 weight: 9
 image: "/img/people/gambioli1.jpg"
 email: "benedetta.gambioli@uniroma3.it"
