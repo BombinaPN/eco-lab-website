@@ -1,6 +1,11 @@
 ---
 title: "Fabrizio Calò"
 role: "Dottorando"
+keywords:
+  - "metodi ecologici"
+  - "monitoraggio"
+  - "geotritoni"
+  - "conservazione degli anfibi"
 weight: 4
 image: "/img/people/calo.jpg"
 ---

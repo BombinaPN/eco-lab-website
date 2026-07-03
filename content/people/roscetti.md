@@ -1,6 +1,11 @@
 ---
 title: "Cecilia Roscetti"
 role: "Collaboratore esterno"
+keywords:
+  - "ecologia termica"
+  - "anfibi e rettili"
+  - "fisiologia ecologica"
+  - "Tor Vergata"
 weight: 8
 image: "/img/people/roscetti-researchgate.jpg"
 ---

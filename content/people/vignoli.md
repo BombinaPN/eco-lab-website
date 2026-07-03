@@ -1,6 +1,11 @@
 ---
 title: "Leonardo Vignoli"
 role: "Responsabile del laboratorio"
+keywords:
+  - "zoologia"
+  - "conservazione"
+  - "biodiversita insulare"
+  - "rettili mediterranei"
 weight: 1
 image: "/img/people/vignoli1.jpg"
 email: "leonardo.vignoli@uniroma3.it"

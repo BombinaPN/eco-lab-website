@@ -1,26 +1,41 @@
 <!-- News cards -->
 <div data-pagefind-ignore="all" class="news-grid">
 {{ range $.Paginator.Pages }}
+{{ $page := . }}
+{{ $external := .Params.externalLink }}
+{{ $source := .Params.externalSource }}
+{{ $label := .Params.externalLabel }}
 <article class="news-card">
-    <a class="news-card-image" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
-        <img src="{{ .Params.image | default "/img/home-bg.jpg" | relURL }}" alt="" loading="lazy">
+    <a class="news-card-image" href="{{ with $external }}{{ . }}{{ else }}{{ $page.RelPermalink }}{{ end }}"{{ with $external }} target="_blank" rel="noopener noreferrer"{{ end }} aria-label="{{ $page.Title }}">
+        <img src="{{ $page.Params.image | default "/img/home-bg.jpg" | relURL }}" alt="{{ with $source }}{{ . }}{{ else }}{{ $page.Title }}{{ end }}" loading="lazy">
     </a>
     <div class="news-card-body">
-        <time class="news-card-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format ":date_long" }}</time>
-        <h2 class="news-card-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-        {{ with .Params.subtitle }}
+        <div class="news-card-meta">
+          <time class="news-card-date" datetime="{{ $page.Date.Format "2006-01-02" }}">{{ $page.Date | time.Format ":date_long" }}</time>
+          {{ with $source }}<span class="news-card-source">{{ . }}</span>{{ end }}
+        </div>
+        <span class="news-card-label">{{ if eq $page.Language.Lang "it" }}Rassegna / attività{{ else }}Media / activities{{ end }}</span>
+        <h2 class="news-card-title"><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></h2>
+        {{ with $page.Params.subtitle }}
         <p class="news-card-subtitle">{{ . }}</p>
         {{ end }}
-        {{ with .Params.tags }}
+        {{ with $page.Params.tags }}
         <div class="news-card-tags">
             {{ range first 3 . }}
             <span>{{ . }}</span>
             {{ end }}
         </div>
         {{ end }}
-        <a class="news-card-link" href="{{ .RelPermalink }}">
-            {{ if eq .Language.Lang "it" }}Leggi la notizia{{ else }}Read the news{{ end }} <span aria-hidden="true">→</span>
-        </a>
+        <div class="news-card-actions">
+          <a class="news-card-link" href="{{ $page.RelPermalink }}">
+              {{ if eq $page.Language.Lang "it" }}Scheda news{{ else }}News page{{ end }} <span aria-hidden="true">→</span>
+          </a>
+          {{ with $external }}
+            <a class="news-card-link news-card-link-external" href="{{ . }}" target="_blank" rel="noopener noreferrer">
+              {{ with $label }}{{ . }}{{ else }}{{ if eq $page.Language.Lang "it" }}Apri link esterno{{ else }}Open external link{{ end }}{{ end }} <span aria-hidden="true">↗</span>
+            </a>
+          {{ end }}
+        </div>
     </div>
 </article>
 {{ end }}

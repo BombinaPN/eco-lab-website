@@ -1,6 +1,11 @@
 ---
 title: "Priscilla Nesi"
 role: "Post-doc"
+keywords:
+  - "biologging"
+  - "animal tracking"
+  - "ecologia del movimento"
+  - "anfibi e rettili"
 weight: 2
 image: "/img/people/nesi2.jpg"
 email: "priscilla.nesi@uniroma3.it"

@@ -1,6 +1,11 @@
 ---
 title: "Benedetta Gambioli"
 role: "Former collaborator"
+keywords:
+  - "herpetology"
+  - "island conservation"
+  - "lizard ecology"
+  - "LIFE EOLIZARD"
 weight: 9
 image: "/img/people/gambioli1.jpg"
 email: "benedetta.gambioli@uniroma3.it"

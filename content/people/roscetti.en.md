@@ -1,6 +1,11 @@
 ---
 title: "Cecilia Roscetti"
 role: "External collaborator"
+keywords:
+  - "thermal ecology"
+  - "amphibians and reptiles"
+  - "ecophysiology"
+  - "Tor Vergata"
 weight: 8
 image: "/img/people/roscetti-researchgate.jpg"
 ---

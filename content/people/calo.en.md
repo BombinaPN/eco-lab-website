@@ -1,6 +1,11 @@
 ---
 title: "Fabrizio Calò"
 role: "PhD student"
+keywords:
+  - "ecological methods"
+  - "monitoring"
+  - "cave salamanders"
+  - "amphibian conservation"
 weight: 4
 image: "/img/people/calo.jpg"
 ---

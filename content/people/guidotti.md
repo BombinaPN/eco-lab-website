@@ -1,6 +1,11 @@
 ---
 title: "Matteo Guidotti"
 role: "Ex-Collaboratore"
+keywords:
+  - "ornitologia"
+  - "biologia della conservazione"
+  - "monitoraggio faunistico"
+  - "ecologia di campo"
 weight: 10
 image: "/img/people/guidotti1.jpg"
 ---

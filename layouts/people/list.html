@@ -20,7 +20,12 @@
             <a href="{{ .RelPermalink }}">{{ .Title }}</a>
           </h3>
           {{ with .Params.role }}
-            <p style="margin:0; opacity:.8;">{{ . }}</p>
+            <p class="people-card-role">{{ . }}</p>
+          {{ end }}
+          {{ with .Params.keywords }}
+            <div class="people-card-keywords">
+              {{ range first 3 . }}<span>{{ . }}</span>{{ end }}
+            </div>
           {{ end }}
         </div>
       </div>

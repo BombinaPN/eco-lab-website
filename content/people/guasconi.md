@@ -1,6 +1,11 @@
 ---
 title: "Mirko Guasconi"
 role: "Dottorando"
+keywords:
+  - "ecologia delle lucertole"
+  - "comunita insulari"
+  - "rettili mediterranei"
+  - "conservazione"
 weight: 5
 image: "/img/people/guasconi.jpg"
 ---

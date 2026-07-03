@@ -1,6 +1,11 @@
 ---
 title: "Katerina Sioumpoura"
 role: "Dottoranda"
+keywords:
+  - "ecologia funzionale"
+  - "lucertole"
+  - "morfologia"
+  - "performance ecologica"
 weight: 7
 image: "/img/people/sioumpoura.jpg"
 ---

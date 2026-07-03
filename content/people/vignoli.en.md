@@ -1,6 +1,11 @@
 ---
 title: "Leonardo Vignoli"
 role: "Principal Investigator"
+keywords:
+  - "zoology"
+  - "conservation"
+  - "island biodiversity"
+  - "Mediterranean reptiles"
 weight: 1
 image: "/img/people/vignoli1.jpg"
 email: "leonardo.vignoli@uniroma3.it"

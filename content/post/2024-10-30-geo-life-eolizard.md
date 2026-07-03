@@ -9,6 +9,9 @@ categories: ["News"]
 tags: ["TV", "Geo", "LIFE Eolizard"]
 type: "post"
 summary: " "
+externalLink: "https://www.raiplay.it/video/2024/10/Geo---Puntata-del-30102024-21f30f4d-c719-488d-8461-d2ca3bb973e6.html#t=3995"
+externalSource: "RaiPlay"
+externalLabel: "Guarda su RaiPlay"
 ---
 È andata in onda il **30 ottobre 2024** una puntata di **GEO**, il programma dedicato alla natura, all’ambiente e alle culture del mondo, condotto da Sveva Sagramola ed Emanuele Biggi su Rai 3.
 

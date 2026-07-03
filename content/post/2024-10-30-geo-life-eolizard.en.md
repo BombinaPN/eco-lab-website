@@ -9,6 +9,9 @@ categories: ["News"]
 tags: ["TV", "Geo", "LIFE Eolizard"]
 type: "post"
 summary: " "
+externalLink: "https://www.raiplay.it/video/2024/10/Geo---Puntata-del-30102024-21f30f4d-c719-488d-8461-d2ca3bb973e6.html#t=3995"
+externalSource: "RaiPlay"
+externalLabel: "Watch on RaiPlay"
 ---
 A new episode of **GEO**, the television programme dedicated to nature, the environment and world cultures, hosted by Sveva Sagramola and Emanuele Biggi, aired on **30 October 2024** on Rai 3.
 

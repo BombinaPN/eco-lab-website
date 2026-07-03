@@ -1,6 +1,11 @@
 ---
 title: "Claudio Pardo"
 role: "Post-doc"
+keywords:
+  - "ecotossicologia"
+  - "ecologia funzionale"
+  - "anfibi e rettili"
+  - "LIFE EOLIZARD"
 weight: 3
 image: "/img/people/pardo.jpg"
 ---

@@ -1,6 +1,11 @@
 ---
 title: "Riccardo Scalera"
 role: "Dottorando"
+keywords:
+  - "policy di conservazione"
+  - "specie invasive"
+  - "gestione IAS"
+  - "biodiversita"
 weight: 6
 image: "/img/people/scalera.jpg"
 ---

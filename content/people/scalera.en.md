@@ -1,6 +1,11 @@
 ---
 title: "Riccardo Scalera"
 role: "PhD student"
+keywords:
+  - "conservation policy"
+  - "invasive species"
+  - "IAS management"
+  - "biodiversity"
 weight: 6
 image: "/img/people/scalera.jpg"
 ---

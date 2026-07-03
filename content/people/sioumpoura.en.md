@@ -1,6 +1,11 @@
 ---
 title: "Katerina Sioumpoura"
 role: "PhD student"
+keywords:
+  - "functional ecology"
+  - "lizards"
+  - "morphology"
+  - "ecological performance"
 weight: 7
 image: "/img/people/sioumpoura.jpg"
 ---

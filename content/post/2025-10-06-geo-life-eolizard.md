@@ -9,6 +9,9 @@ categories: ["News"]
 tags: ["TV", "Geo", "LIFE Eolizard"]
 type: "post"
 summary: " "
+externalLink: "https://www.facebook.com/scienzeromatre/videos/il-prof-leonardo-vignoli-ospite-a-geo-su-rai3-il-6-ottobre-2025-il-prof-leonardo/1971273190116287/"
+externalSource: "Facebook / Roma Tre"
+externalLabel: "Guarda il video"
 ---
 Il **6 ottobre 2025**, il Prof. Leonardo Vignoli, Professore di Zoologia presso il Dipartimento di Scienze dell’Università Roma Tre, ha partecipato come ospite alla trasmissione **GEO** in onda su Rai 3, presentando il progetto europeo **LIFE EOLIZARD**, di cui è coordinatore scientifico.
 

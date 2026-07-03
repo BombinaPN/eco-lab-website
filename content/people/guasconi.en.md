@@ -1,6 +1,11 @@
 ---
 title: "Mirko Guasconi"
 role: "PhD student"
+keywords:
+  - "lizard ecology"
+  - "island communities"
+  - "Mediterranean reptiles"
+  - "conservation"
 weight: 5
 image: "/img/people/guasconi.jpg"
 ---

@@ -9,6 +9,9 @@ categories: ["News"]
 tags: ["TV", "Biodiversity", "Amphibians", "Reptiles", "Unomattina", "LIFE Eolizard"]
 type: "post"
 summary: " "
+externalLink: "https://www.raiplay.it/video/2025/08/UnoMattina-Estate-eb567d20-c3ab-4d88-b41e-d5ab7db3d90d.html#t=7515"
+externalSource: "RaiPlay"
+externalLabel: "Watch on RaiPlay"
 ---
 
 On **September 4, 2025** Leonardo Vignoli was a guest on the Italian TV programme **Unomattina** (Rai 1)

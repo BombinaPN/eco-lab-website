@@ -1,6 +1,11 @@
 ---
 title: "Matteo Guidotti"
 role: "Former collaborator"
+keywords:
+  - "ornithology"
+  - "conservation biology"
+  - "wildlife monitoring"
+  - "field ecology"
 weight: 10
 image: "/img/people/guidotti1.jpg"
 ---

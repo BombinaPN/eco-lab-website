@@ -2,7 +2,12 @@
 <header class="intro-header people-header">
   <div class="container">
     <h1>{{ .Title }}</h1>
-    {{ with .Params.role }}<p style="margin:0; opacity:.85;">{{ . }}</p>{{ end }}
+    {{ with .Params.role }}<p class="person-role">{{ . }}</p>{{ end }}
+    {{ with .Params.keywords }}
+      <div class="person-keywords" aria-label="{{ if eq $.Language.Lang "it" }}Parole chiave{{ else }}Keywords{{ end }}">
+        {{ range . }}<span>{{ . }}</span>{{ end }}
+      </div>
+    {{ end }}
   </div>
 </header>
 
