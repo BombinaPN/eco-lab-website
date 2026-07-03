@@ -57,6 +57,8 @@ The research integrates several monitoring techniques, including:
 
 The information obtained through biologging helps improve the management of natural populations and supports the development of more effective conservation actions. Understanding where animals move, which habitats they use and how they respond to environmental pressures is essential for protecting species increasingly threatened by climate change and habitat loss.
 
+{{< publications project="tracking" >}}
+
 ## Gallery
 
 {{< gallery folder="img/projects/tracking" limit="5" galleryUrl="projects/tracking/gallery/" >}}

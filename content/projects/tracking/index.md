@@ -57,6 +57,8 @@ Le ricerche integrano diverse tecniche di monitoraggio, tra cui:
 
 Le informazioni ottenute attraverso il biologging contribuiscono a migliorare la gestione delle popolazioni naturali e a definire azioni di conservazione più efficaci. Comprendere dove gli animali si spostano, quali habitat utilizzano e come rispondono alle pressioni ambientali è infatti fondamentale per proteggere specie sempre più minacciate dai cambiamenti climatici e dalla perdita degli habitat.
 
+{{< publications project="tracking" >}}
+
 ## Galleria
 
 {{< gallery folder="img/projects/tracking" limit="5" galleryUrl="projects/tracking/gallery/" >}}
