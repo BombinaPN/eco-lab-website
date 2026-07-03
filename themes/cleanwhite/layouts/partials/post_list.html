@@ -3,18 +3,15 @@
 {{ range $.Paginator.Pages }}
 {{ $page := . }}
 {{ $external := .Params.externalLink }}
-{{ $source := .Params.externalSource }}
 {{ $label := .Params.externalLabel }}
 <article class="news-card">
     <a class="news-card-image" href="{{ with $external }}{{ . }}{{ else }}{{ $page.RelPermalink }}{{ end }}"{{ with $external }} target="_blank" rel="noopener noreferrer"{{ end }} aria-label="{{ $page.Title }}">
-        <img src="{{ $page.Params.image | default "/img/home-bg.jpg" | relURL }}" alt="{{ with $source }}{{ . }}{{ else }}{{ $page.Title }}{{ end }}" loading="lazy">
+        <img src="{{ $page.Params.image | default "/img/home-bg.jpg" | relURL }}" alt="{{ $page.Title }}" loading="lazy">
     </a>
     <div class="news-card-body">
         <div class="news-card-meta">
           <time class="news-card-date" datetime="{{ $page.Date.Format "2006-01-02" }}">{{ $page.Date | time.Format ":date_long" }}</time>
-          {{ with $source }}<span class="news-card-source">{{ . }}</span>{{ end }}
         </div>
-        <span class="news-card-label">{{ if eq $page.Language.Lang "it" }}Rassegna / attività{{ else }}Media / activities{{ end }}</span>
         <h2 class="news-card-title"><a href="{{ $page.RelPermalink }}">{{ $page.Title }}</a></h2>
         {{ with $page.Params.subtitle }}
         <p class="news-card-subtitle">{{ . }}</p>
