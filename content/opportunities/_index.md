@@ -5,7 +5,7 @@ header_image: "/img/headers/opportunities.jpg"
 
 ## Opportunità di tesi e tirocinio
 
-Il laboratorio ECB offre regolarmente opportunità di tesi triennali, tesi magistrali e tirocini curriculari nell'ambito dei progetti di ricerca e conservazione attualmente in corso.
+Il laboratorio LEC offre regolarmente opportunità di tesi triennali, tesi magistrali e tirocini curriculari nell'ambito dei progetti di ricerca e conservazione attualmente in corso.
 
 Gli studenti possono essere coinvolti in attività di campo, raccolta e analisi dati, monitoraggio della fauna, elaborazioni statistiche e sviluppo di progetti di ricerca originali, con possibilità di collaborare con enti di ricerca, aree protette e partner nazionali e internazionali.
 

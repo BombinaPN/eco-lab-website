@@ -1,10 +1,8 @@
 ---
-title: "ECB – Ecologia e Conservazione della Biodiversità"
+title: "LEC - Lab for Ecology & Conservation"
 ---
 
-## ECB — Ecologia e Conservazione della Biodiversità
+## LEC - Lab for Ecology & Conservation
 
 👉 **[Entra nel sito →](/lab/)**  
 👉 **[English version →](/en/lab/)**
-
-

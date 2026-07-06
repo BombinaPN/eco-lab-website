@@ -118,6 +118,66 @@ body.research header.intro-header{
 
 /* People overview */
 .people-summary { margin: 18px 0 32px; }
+.people-overview { margin: 2px 0 36px; }
+.people-overview-intro {
+  max-width: 1080px;
+  margin: 0 0 22px;
+  color: #33443d;
+  font-size: 16.5px;
+  line-height: 1.65;
+}
+.people-role-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 34px;
+}
+.people-role-box {
+  min-width: 0;
+  padding: 18px 20px;
+  border: 1px solid #dce3df;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(22, 57, 44, .055);
+}
+.people-role-box-lead {
+  border-color: #b9cfc5;
+  background: linear-gradient(135deg, #f7fbf9, #fff);
+}
+.people-role-box h2 {
+  margin: 0 0 12px;
+  color: #173f32;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+}
+.people-role-box ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.people-role-box li { margin: 0 0 11px; }
+.people-role-box li:last-child { margin-bottom: 0; }
+.people-role-box a,
+.people-role-name {
+  color: #173f32 !important;
+  font-weight: 800;
+  text-decoration: none !important;
+}
+.people-role-box a:hover { color: #1d5b46 !important; }
+.people-role-box span,
+.people-role-box p {
+  display: block;
+  margin: 3px 0 0;
+  color: #64736d;
+  font-size: 13px;
+  line-height: 1.45;
+}
+@media (max-width: 760px) {
+  .people-role-grid { grid-template-columns: 1fr; }
+  .people-overview-intro { font-size: 16px; }
+}
 
 /* Navigation search */
 .nav-search { position: relative; }

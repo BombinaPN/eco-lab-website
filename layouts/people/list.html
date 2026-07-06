@@ -1,5 +1,55 @@
 {{ define "main" }}
+{{ $isEn := eq .Site.Language.Lang "en" }}
 <div class="container">
+  <div class="people-overview">
+    {{ if $isEn }}
+      <p class="people-overview-intro">The lab brings together researchers and collaborators with complementary expertise in zoology, herpetology, movement ecology, conservation and biodiversity management.</p>
+    {{ else }}
+      <p class="people-overview-intro">Il laboratorio riunisce ricercatrici, ricercatori e collaboratori con competenze complementari in zoologia, erpetologia, ecologia del movimento, conservazione e gestione della biodiversità.</p>
+    {{ end }}
+
+    <div class="people-role-grid">
+      <section class="people-role-box people-role-box-lead">
+        <h2>{{ if $isEn }}Principal Investigator{{ else }}Responsabile del laboratorio{{ end }}</h2>
+        <a href="{{ relLangURL "people/vignoli/" }}" class="people-role-name">Leonardo Vignoli</a>
+        <p>{{ if $isEn }}Associate Professor of Zoology{{ else }}Professore Associato di Zoologia{{ end }}</p>
+      </section>
+
+      <section class="people-role-box">
+        <h2>{{ if $isEn }}Postdoctoral Researchers{{ else }}Post-doc{{ end }}</h2>
+        <ul>
+          <li><a href="{{ relLangURL "people/pardo/" }}">Claudio Pardo</a><span>{{ if $isEn }}ecotoxicology, functional ecology{{ else }}ecotossicologia, ecologia funzionale{{ end }}</span></li>
+          <li><a href="{{ relLangURL "people/nesi/" }}">Priscilla Nesi</a><span>biologging, animal tracking</span></li>
+        </ul>
+      </section>
+
+      <section class="people-role-box">
+        <h2>{{ if $isEn }}PhD Students{{ else }}Dottorandi{{ end }}</h2>
+        <ul>
+          <li><a href="{{ relLangURL "people/calo/" }}">Fabrizio Calò</a><span>{{ if $isEn }}ecological methods, monitoring{{ else }}metodi ecologici, monitoraggio{{ end }}</span></li>
+          <li><a href="{{ relLangURL "people/guasconi/" }}">Mirko Guasconi</a><span>{{ if $isEn }}lizard ecology{{ else }}ecologia delle lucertole{{ end }}</span></li>
+          <li><a href="{{ relLangURL "people/scalera/" }}">Riccardo Scalera</a><span>conservation policy, IAS management</span></li>
+          <li><a href="{{ relLangURL "people/sioumpoura/" }}">Katerina Sioumpoura</a><span>{{ if $isEn }}lizard functional ecology{{ else }}ecologia funzionale delle lucertole{{ end }}</span></li>
+        </ul>
+      </section>
+
+      <section class="people-role-box">
+        <h2>{{ if $isEn }}External Collaborators{{ else }}Collaboratori esterni{{ end }}</h2>
+        <ul>
+          <li><a href="{{ relLangURL "people/roscetti/" }}">Cecilia Roscetti</a><span>{{ if $isEn }}thermal ecology, amphibians and reptiles{{ else }}ecologia termica, anfibi e rettili{{ end }}</span></li>
+        </ul>
+      </section>
+
+      <section class="people-role-box">
+        <h2>{{ if $isEn }}Former Collaborators{{ else }}Ex-Collaboratori{{ end }}</h2>
+        <ul>
+          <li><a href="{{ relLangURL "people/gambioli/" }}">Benedetta Gambioli</a><span>{{ if $isEn }}herpetology, island conservation{{ else }}erpetologia, conservazione insulare{{ end }}</span></li>
+          <li><a href="{{ relLangURL "people/guidotti/" }}">Matteo Guidotti</a><span>{{ if $isEn }}bird ecology, conservation biology{{ else }}ecologia degli uccelli, biologia della conservazione{{ end }}</span></li>
+        </ul>
+      </section>
+    </div>
+  </div>
+
   {{ with .Content }}
     <div class="people-summary">
       {{ . }}

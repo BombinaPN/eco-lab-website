@@ -1,6 +1,6 @@
 ---
 title: "Cecilia Roscetti"
-role: "Collaboratore esterno"
+role: "Collaboratrice esterna"
 keywords:
   - "ecologia termica"
   - "anfibi e rettili"

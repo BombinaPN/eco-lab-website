@@ -5,7 +5,7 @@ header_image: "/img/headers/opportunities.jpg"
 
 ## Opportunities for BSc, MSc Theses and Internships
 
-The ECB Lab regularly offers opportunities for BSc and MSc theses, as well as curricular internships, within its ongoing research and conservation projects.
+The LEC Lab regularly offers opportunities for BSc and MSc theses, as well as curricular internships, within its ongoing research and conservation projects.
 
 Students may be involved in fieldwork, ecological monitoring, data collection and analysis, wildlife surveys, statistical analyses, and the development of independent research projects. Activities are often carried out in collaboration with research institutions, protected areas, and national and international conservation partners.
 
@@ -26,7 +26,7 @@ Activities may include fieldwork in the Aeolian Islands and direct participation
 
 ## Biologging and Animal Tracking in Amphibians and Reptiles
 
-The ECB Lab develops and applies innovative biologging and animal-tracking techniques to investigate the ecology and behaviour of amphibians and reptiles.
+The LEC Lab develops and applies innovative biologging and animal-tracking techniques to investigate the ecology and behaviour of amphibians and reptiles.
 
 Available thesis and internship projects may focus on:
 
