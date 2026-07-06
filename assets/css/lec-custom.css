@@ -862,3 +862,108 @@ body.research header.intro-header{
   .lec-home-card-grid,
   .lec-home-split { grid-template-columns: 1fr; }
 }
+/* Opportunities preview */
+.lec-opportunities-hero {
+  margin: 0 0 30px;
+  padding: 32px 34px;
+  border: 1px solid #d8e3dd;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #f6faf8 0%, #fff 62%, #edf5f1 100%);
+  box-shadow: 0 16px 40px rgba(22, 57, 44, .08);
+}
+.lec-opportunities-hero h2 {
+  margin-top: 0;
+  color: #173f32;
+  font-size: 33px;
+  line-height: 1.16;
+}
+.lec-opportunities-hero p {
+  color: #3e5149;
+  font-size: 16px;
+  line-height: 1.7;
+}
+.lec-opportunities-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+  margin: 24px 0 34px;
+}
+.lec-opportunity-card {
+  display: flex;
+  flex-direction: column;
+  padding: 26px 27px;
+  border: 1px solid #dce3df;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(22, 57, 44, .06);
+}
+.lec-opportunity-label {
+  margin: 0 0 10px !important;
+  color: #7a5a0a !important;
+  font-size: 12px !important;
+  font-weight: 800;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.lec-opportunity-card h2 {
+  margin: 0 0 14px;
+  color: #173f32;
+  font-size: 23px;
+  line-height: 1.22;
+}
+.lec-opportunity-card h3 {
+  margin: 20px 0 8px;
+  color: #1d5b46;
+  font-size: 16px;
+}
+.lec-opportunity-card p,
+.lec-opportunity-card li {
+  color: #52645d;
+  font-size: 14px;
+  line-height: 1.65;
+}
+.lec-opportunity-card ul {
+  margin-bottom: 16px;
+  padding-left: 20px;
+}
+.lec-opportunities-apply {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px;
+  align-items: center;
+  margin: 30px 0 44px;
+  padding: 28px 30px;
+  border-radius: 16px;
+  background: #173f32;
+  color: #fff;
+}
+.lec-opportunities-apply h2 {
+  margin-top: 0;
+  color: #fff;
+}
+.lec-opportunities-apply p {
+  color: rgba(255,255,255,.9);
+}
+.lec-opportunities-apply a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px;
+  border-radius: 999px;
+  background: #fff;
+  color: #173f32 !important;
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+.lec-opportunities-apply a:hover {
+  background: #edf5f1;
+}
+@media (max-width: 760px) {
+  .lec-opportunities-hero { padding: 26px 22px; }
+  .lec-opportunities-hero h2 { font-size: 28px; }
+  .lec-opportunities-grid,
+  .lec-opportunities-apply { grid-template-columns: 1fr; }
+  .lec-opportunities-apply a { justify-self: start; white-space: normal; }
+}

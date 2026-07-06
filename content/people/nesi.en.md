@@ -1,11 +1,11 @@
----
+﻿---
 title: "Priscilla Nesi"
 role: "Post-doc"
 keywords:
   - "biologging"
   - "animal tracking"
   - "movement ecology"
-  - "amphibians and reptiles"
+  - "herpetology"
 weight: 2
 image: "/img/people/nesi2.jpg"
 email: "priscilla.nesi@uniroma3.it"
@@ -18,3 +18,4 @@ I am a zoology researcher primarily interested in the movement and spatial behav
 An important part of my research involves developing tracking methods suitable for small-bodied species and assessing how monitoring devices may affect animal behaviour and performance. By integrating movement data, field observations and spatial analyses, I investigate trajectories, home ranges and activity periods, producing information that can support population monitoring and conservation.
 
 I also collaborate on the LIFE EOLIZARD project, which is dedicated to the conservation of the Aeolian wall lizard, *Podarcis raffonei*. Within the project, I contribute to research and monitoring activities aimed at improving our understanding of the species’ ecology and supporting the planned conservation actions.
+
