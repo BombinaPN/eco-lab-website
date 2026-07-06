@@ -1,4 +1,4 @@
-{{ define "main" }}
+﻿{{ define "main" }}
 {{ $isEn := eq .Site.Language.Lang "en" }}
 <div class="container">
   <div class="people-overview">
@@ -27,7 +27,7 @@
         <h2>{{ if $isEn }}PhD Students{{ else }}Dottorandi{{ end }}</h2>
         <ul>
           <li><a href="{{ relLangURL "people/calo/" }}">Fabrizio Calò</a><span>{{ if $isEn }}ecological methods, monitoring{{ else }}metodi ecologici, monitoraggio{{ end }}</span></li>
-          <li><a href="{{ relLangURL "people/guasconi/" }}">Mirko Guasconi</a><span>{{ if $isEn }}lizard ecology{{ else }}ecologia delle lucertole{{ end }}</span></li>
+          <li><a href="{{ relLangURL "people/guasconi/" }}">Mirko Guasconi</a><span>{{ if $isEn }}morphometrics and trophic ecology{{ else }}morfometria ed ecologia trofica{{ end }}</span></li>
           <li><a href="{{ relLangURL "people/scalera/" }}">Riccardo Scalera</a><span>conservation policy, IAS management</span></li>
           <li><a href="{{ relLangURL "people/sioumpoura/" }}">Katerina Sioumpoura</a><span>{{ if $isEn }}lizard functional ecology{{ else }}ecologia funzionale delle lucertole{{ end }}</span></li>
         </ul>
