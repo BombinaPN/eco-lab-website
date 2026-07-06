@@ -1,7 +1,8 @@
 baseURL = "https://lec-lab.com/"
 title = "LEC - Lab for Ecology & Conservation"
 theme = "cleanwhite"
-languageCode = "it"
+enableRobotsTXT = true
+locale = "it-IT"
 
 defaultContentLanguage = "it"
 defaultContentLanguageInSubdir = false
@@ -16,6 +17,11 @@ hasCJKLanguage = true
   [services.googleAnalytics]
     id = ""
 
+[sitemap]
+  changeFreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
 [pagination]
   pagerSize = 5 # frontpage pagination
 
@@ -29,10 +35,12 @@ tag = "tags"
 [params]
   header_image_home = "img/home-bg.jpg"
   header_image_default = "img/header-default.jpg"
+  site_image = "img/home-bg.jpg"
 
   SEOTitle = "LEC - Lab for Ecology & Conservation"
-  description = "Laboratorio di Ecologia e Conservazione della Biodiversità - Università Roma Tre"
-  keyword = "ecologia, conservazione, biodiversità, anfibi, rettili, università roma tre"
+  description = "LEC - Lab for Ecology & Conservation: laboratorio di ecologia animale e conservazione della biodiversità dell'Università Roma Tre, con progetti su anfibi, rettili, specie invasive, biologging, eDNA e conservazione."
+  description_en = "LEC - Lab for Ecology & Conservation: animal ecology and biodiversity conservation lab at Roma Tre University, with projects on amphibians, reptiles, invasive species, biologging, eDNA and conservation."
+  keyword = "LEC Lab, ecologia animale, conservazione biodiversità, Università Roma Tre, anfibi, rettili, biologging, eDNA, specie invasive, Podarcis raffonei, LIFE EOLIZARD"
   slogan = "Dalla ricerca sul campo alle azioni di conservazione"
   upstreamAttribution = true
   showCategoriesMenu = false
@@ -83,7 +91,8 @@ tag = "tags"
 [languages]
 
   [languages.it]
-languageName = "Italiano"
+locale = "it-IT"
+label = "Italiano"
 weight = 1
 title = "LEC - Lab for Ecology & Conservation"
 
@@ -118,7 +127,8 @@ title = "LEC - Lab for Ecology & Conservation"
   weight = 6
 
 [languages.en]
-languageName = "English"
+locale = "en"
+label = "English"
 weight = 2
 title = "LEC - Lab for Ecology & Conservation"
 

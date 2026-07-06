@@ -1,5 +1,6 @@
-﻿---
+---
 title: "Opportunità"
+description: "Opportunità di tesi, tirocinio e collaborazione nel LEC su ecologia animale, biologging, LIFE EOLIZARD e conservazione della biodiversità."
 header_image: "/img/headers/opportunities.jpg"
 ---
 
@@ -43,12 +44,19 @@ header_image: "/img/headers/opportunities.jpg"
     <p>Gli studenti interessati avranno la possibilità di acquisire competenze pratiche e analitiche sempre più richieste nell'ambito dell'ecologia del movimento e della conservazione della fauna selvatica.</p>
   </section>
 </div>
-
+<div class="lec-opportunities-more">
+  <div>
+    <p class="lec-home-kicker">Altri percorsi possibili</p>
+    <h2>Sei più interessato ad altri progetti?</h2>
+    <p>Oltre a LIFE EOLIZARD e biologging, il laboratorio segue diversi progetti su conservazione, specie invasive, genetica di popolazione, eDNA, ecologia trofica e monitoraggio della biodiversità.</p>
+  </div>
+  <a href="/projects/">Guarda tutti i progetti</a>
+</div>
 <div class="lec-opportunities-apply">
   <div>
     <p class="lec-home-kicker">Come candidarsi</p>
     <h2>Scrivici con un breve profilo e i tuoi interessi</h2>
-    <p>Gli studenti interessati sono invitati a contattare il laboratorio allegando un breve curriculum e una descrizione dei propri interessi scientifici. Le attività vengono concordate in base agli interessi dello studente, alle competenze possedute e ai progetti attivi del laboratorio.</p>
+    <p>Gli studenti interessati sono invitati a contattare il laboratorio allegando una breve descrizione dei propri interessi scientifici. Le attività vengono concordate in base agli interessi dello studente, alle tempistiche disponibili e ai progetti attivi del laboratorio.</p>
   </div>
   <a href="mailto:leonardo.vignoli@uniroma3.it">leonardo.vignoli@uniroma3.it</a>
 </div>

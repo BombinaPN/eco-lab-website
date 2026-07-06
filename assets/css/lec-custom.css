@@ -1,4 +1,4 @@
-﻿/* Overlay scuro */
+/* Overlay scuro */
 .intro-header {
   position: relative !important;
 }
@@ -966,4 +966,46 @@ body.research header.intro-header{
   .lec-opportunities-grid,
   .lec-opportunities-apply { grid-template-columns: 1fr; }
   .lec-opportunities-apply a { justify-self: start; white-space: normal; }
+}
+.lec-opportunities-more {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 24px;
+  align-items: center;
+  margin: 4px 0 32px;
+  padding: 24px 26px;
+  border: 1px solid #d8e3dd;
+  border-radius: 16px;
+  background: #f8fbf9;
+}
+.lec-opportunities-more h2 {
+  margin-top: 0;
+  color: #173f32;
+  font-size: 23px;
+}
+.lec-opportunities-more p:not(.lec-home-kicker) {
+  margin-bottom: 0;
+  color: #52645d;
+  font-size: 14px;
+  line-height: 1.65;
+}
+.lec-opportunities-more a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 15px;
+  border-radius: 999px;
+  background: #1d5b46;
+  color: #fff !important;
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+.lec-opportunities-more a:hover {
+  background: #123e2e;
+}
+@media (max-width: 760px) {
+  .lec-opportunities-more { grid-template-columns: 1fr; }
+  .lec-opportunities-more a { justify-self: start; white-space: normal; }
 }

@@ -1,5 +1,6 @@
-﻿---
+---
 title: "LEC – Lab for Ecology & Conservation"
+description: "Il LEC - Lab for Ecology & Conservation studia ecologia animale, conservazione della biodiversità, anfibi, rettili e specie invasive."
 header_image: "img/home-bg.jpg"
 aliases:
   - /research/
